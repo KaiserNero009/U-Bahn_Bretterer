@@ -21,4 +21,8 @@ const audio = {
     this.music.pause();
     this.music.currentTime = 0;
   }
-};
+ 
+ // already calls audio.startMusic() at start
+window.addEventListener("click", () => {
+  if (audio.music.paused) audio.startMusic();
+});
