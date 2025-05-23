@@ -8,10 +8,10 @@ body {
 }
 
 canvas {
-  background: #66ccff;
-  border: 4px solid white;
-  border-radius: 10px;
+  background: url("images/bg-city.jpg") no-repeat center center;
+  background-size: cover;
 }
+
 
 #ui {
   position: absolute;
